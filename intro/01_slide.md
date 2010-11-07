@@ -1,5 +1,6 @@
 !SLIDE 
-# Rails Rumble
+# Lessons Learned from the Rails Rumble
+## or, "How to successfully pull off Thanksgiving dinner"
 
 !SLIDE bullets incremental
 # Me
@@ -12,7 +13,7 @@
 * Lessons from completing the Rumble
 * What worked
 * What didn't
-* Can we apply any of this to our jobs/lives?
+* Can we apply any of this to our jobs?
 
 !SLIDE bullets incremental
 # Rails Rumble
@@ -34,11 +35,14 @@
 * Learn the basics of programming
 * Completely Visual/Drag-n-Drop
 
+!SLIDE
+# VERY Brief Demo
+
 !SLIDE bullets incremental
 # How to get started?
 * Plenty of time to prepare
-* Can't create digital assets
 * Have limited time to get the job done
+* Want to impress
 * Can't fail
 
 !SLIDE 
@@ -49,9 +53,10 @@
 
 !SLIDE bullets incremental
 # Prepare
-* Gather Recipes _(maybe try some of them out ahead of time)_
+* Gather Recipes _(maybe even try some of them out ahead of time)_
 * Prep everything
 * Get organized
+* Cook
 
 !SLIDE bullets incremental
 # Gather Recipes
@@ -59,7 +64,6 @@
 * Drag-n-drop UX
 * Deployment
 * Make CSS not suck
-* Graphics
 
 !SLIDE bullets incremental
 # Karel
@@ -80,13 +84,13 @@
 # Drag-n-Drop UX
 * Verifed that JQuery DnD would work
 * Obviously didn't use any of this code
-* Ended up needing Sortable as well
 
 !SLIDE bullets incremental
 # Deployment
 * Bought a Linode slice
 * Set it up, with meticulous notes - 44 step process
 * Deleted the node and did it again
+* Allowed my root-password to get compromised and a DDOS was launched!  Added step #45.
 * Had one-command deployment done by the second hour
 
 !SLIDE bullets incremental
@@ -95,16 +99,6 @@
 * [Compass!](http://compass-style.org/)
 * Blueprint
 * Still fought with my grid up until the end
-
-!SLIDE bullets incremental
-# Graphics
-* Drew a *lot* of icons
-* Used Inkwell to design map tiles
-* Drew a lot more icons
-* Ended up using mostly unicode characters :)
-
-!SLIDE center
-<img src="icons.jpg" />
 
 !SLIDE bullets incremental
 # Prep Everything
@@ -146,12 +140,17 @@
 !SLIDE center
 <img src="wireframe11.jpg" />
 
+!SLIDE center
+# Get Organized
+<img src="thanksgiving_list.jpg" />
+
 !SLIDE bullets incremental
 # Get Organized
 * Went through all drawings
 * Discarded irrelevant ones
 * Posted relevant ones
 * Grouped by purpose
+* <span style="color:green">Green &#x2714;</span> means "done", <span style="color:red">Red &#x2715;</span> means "won't do"
 
 !SLIDE center
 <img src="room1.jpg" />
@@ -160,7 +159,8 @@
 <img src="room2.jpg" />
 
 !SLIDE bullets incremental
-# Made the following plan
+# Time to Cook
+## I made the following plan:
 * 1 - Get deployment set up
 * 2 - Implement user auth
 * 3 - ???
@@ -175,7 +175,7 @@
 !SLIDE bullets incremental
 # Back-end code
 * Test-driven code went quickly, gave me no problems
-* Untest-driven code was a timesuck
+* Non-test-driven code was a timesuck
 
 !SLIDE bullets incremental
 # Front-end
@@ -195,9 +195,6 @@
 * Basic UI
 * Mechanics of gameplay
 * Viable demonstration of concept
-
-!SLIDE 
-# VERY Brief Demo
 
 !SLIDE bullets incremental
 # What got left out?
@@ -221,4 +218,11 @@
 * Think before you code
 * TDD
 * *Some* design up front is OK
+
+!SLIDE bullets
+# Totally doing it again next year 
+* [@davetron5000](http://www.twitter.com/davetron5000) / davidcopeland (at) naildrivin5.com
+* [naildrivin5.com/blog](http://www.naildrivin5.com/blog)
+* Slides on Github [github.com/davetron5000/thanksgiving-rumble](http://www.github.com/davetron5000/thanksgiving-rumble)
+* View Slides on Heroku [thanksgiving-rumble.heroku.com](http://thanksgiving-rumble.heroku.com)
 
