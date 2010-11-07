@@ -215,7 +215,6 @@
 !SLIDE bullets incremental
 # For work?
 * Prototyping works
-* Think before you code
 * TDD
 * *Some* design up front is OK
 
